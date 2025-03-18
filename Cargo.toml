@@ -1,9 +1,9 @@
 [package]
 name = "tree-sitter-nasal"
 description = "Nasal grammar for the tree-sitter parsing library"
-version = "0.1.0"
-license = "MIT"
-authors = ["Zed Extension Generator"]
+version = "0.0.1"
+license = "GPL-2.0"
+authors = ["LIANG Sidi <sidi.liang@gmail.com>"]
 edition = "2021"
 
 build = "bindings/rust/build.rs"
