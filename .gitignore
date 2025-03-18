@@ -1,0 +1,20 @@
+# build folder
+build/
+# .vscode folder
+.vscode/
+
+# Rust
+target/
+# Cargo
+Cargo.lock
+
+# macOS
+.DS_Store
+
+# nodejs
+node_modules/
+bindings/
+
+# Python
+__pycache__/
+*.pyc
