@@ -1,0 +1,28 @@
+{
+  "name": "tree-sitter-nasal",
+  "version": "0.1.0",
+  "description": "Nasal grammar for tree-sitter",
+  "main": "bindings/node",
+  "keywords": [
+    "parsing",
+    "incremental",
+    "nasal",
+    "flightgear"
+  ],
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.7"
+  },
+  "scripts": {
+    "build": "tree-sitter generate && node-gyp build",
+    "test": "tree-sitter test"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.nasal",
+      "file-types": ["nas"]
+    }
+  ]
+}
