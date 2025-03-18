@@ -1,0 +1,9 @@
+name = "Nasal"
+grammar = "nasal"
+path_suffixes = ["nas", "nasa", "nasal"]
+
+# Let Zed automatically comment lines with "#"
+line_comments = ["#"]
+
+tab_size = 4
+hard_tabs = false
